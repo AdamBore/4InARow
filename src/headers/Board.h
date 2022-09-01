@@ -6,7 +6,8 @@ namespace AdamBorenstein
 class Board
 {
 public:
-    Board( int width = 7, int length = 7 );
+    Board( int width, int length );
+    ~Board();
 
 private:
     int * gameBoard; 
