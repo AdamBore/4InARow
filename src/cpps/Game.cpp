@@ -4,7 +4,7 @@
 namespace AdamBorenstein
 {
 
-Game::Game(){
+Game::Game() {
     this->gameBoard = Board(7, 7);
 }
 
