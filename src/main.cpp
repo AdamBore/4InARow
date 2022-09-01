@@ -1,7 +1,7 @@
 
 #include <iostream>
 
-#include "Board.h"
+#include "Game.h"
 
 using namespace std; 
 using namespace AdamBorenstein; 
@@ -12,7 +12,7 @@ void PrintGreatting();
 int main(int argc, char const *argv[])
 {
 	PrintGreatting();
-	Board gameBoard = Board(); 
+	Game game = Game(); 
 	return 0;
 }
 
