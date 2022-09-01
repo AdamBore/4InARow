@@ -1,16 +1,18 @@
 
 #include <iostream>
 
-#include <"board.h">
+#include "Board.h"
 
 using namespace std; 
+using namespace AdamBorenstein; 
 
 void PrintGreatting(); 
+
 
 int main(int argc, char const *argv[])
 {
 	PrintGreatting();
-	CreateBoard(7);
+	Board gameBoard = Board(); 
 	return 0;
 }
 
