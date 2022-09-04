@@ -4,8 +4,10 @@
 namespace AdamBorenstein
 {
 
-Game::Game() {
-    this->gameBoard = Board(7, 7);
+Game::Game() : gameBoard(Board(7, 7)){}
+
 }
 
+
+Game::~Game() {
 }
